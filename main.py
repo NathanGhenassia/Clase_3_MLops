@@ -19,3 +19,12 @@ if __name__ == '__main__':
 
 
 #Reconocimieto de gatos y perros
+
+def gato(animal: str):
+    if animal == 'cat':
+        return True
+    else:
+        return False
+
+if __name__ =='__main__':
+        print(gato(animal = "cat"))
